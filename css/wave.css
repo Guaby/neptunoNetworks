@@ -160,6 +160,11 @@ canvas.inverted {
         top: 85%;
     }
 }
+@media (max-width: 800px) {
+    .sub-nav {
+        display: none;
+    }
+}
 
 @media (max-width: 767px) {
     .curve-container {
